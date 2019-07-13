@@ -12,10 +12,11 @@
       h2 {
          color: teal;
       }
-     header {
+     header
+      {
         text-align: center;
         color: teal;
-        background: white;
+         text-emphasis: bold;
         size: 70px;
         }
     
