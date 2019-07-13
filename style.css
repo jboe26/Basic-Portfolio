@@ -9,6 +9,9 @@
         width: 960px;
         font-size: 18px; 
           }
+      h1 {
+         color: teal;
+      }
      header {
         text-align: center;
         background: teal;
