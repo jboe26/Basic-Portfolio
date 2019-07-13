@@ -12,11 +12,13 @@ body {
 h2 {
    color: #ebebeb;
 }
+
 header {
-   text-align: center;
-   color: #ebebeb;
-   size: 70px;
-   font-family: 'Georgia', Times, Times New Roman, serif;
+   background: #ccc;
+   padding: 20px;
+   border: 1px solid white;
+   margin-bottom: 20px;
+ }
 }
 .box{
    position: relative;
