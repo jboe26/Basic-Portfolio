@@ -26,9 +26,11 @@ img {
    float: left;
 }
 
+p {
+   float: right;
+}
 footer {
    background: #ccc;
    clear: both;
    padding: 10px;
- 
  }
