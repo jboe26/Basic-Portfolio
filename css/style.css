@@ -1,15 +1,37 @@
-body { 
-        background: gray; 
-
-}
-
-h1 { 
-        color: #000000;
-        align-content: right; 
-
-}
-
 nav { 
-        align-items: right; 
-
-}
+        text-align: center; 
+        background: #ebebeb;
+          }
+     body { 
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777;
+        background: white;
+        width: 960px;
+        font-size: 18px; 
+          }
+     header {
+        text-align: center;
+        background: #ebebeb;
+        }
+     h1 h2 h3  { 
+        text-align: left;  
+       color: white;
+        }
+     p { 
+        color: #777;  
+        background: #ebebeb;  
+        }
+     aside { 
+        text-align: right; 
+        width: 495px; 
+        background: #ebebeb;
+        
+         }
+     section { 
+        width: 495px; 
+        float: left; 
+        background: #ebebeb;
+       }
+     footer { 
+        text-align: center; 
+        background: #ebebeb; }
