@@ -12,25 +12,25 @@ body {
 h2 {
    color: #ebebeb;
 }
-
+   
 header {
    background: #666;
+   color: #4aaaa5;
    padding: 20px;
    border: 1px solid white;
    margin-bottom: 20px;
    align-content: center;
+   
  }
-}
-.box{
-   position: relative;
-   display: inline-block;
-}
+
 img {
    float: left;
 }
-h3 {
+h4 {
    float: left;
 }
+
+
 
 p {
    float: right;
@@ -48,5 +48,5 @@ footer {
    height: 10px;
    padding: 10px;
    display: flex;
-   align-items: center;
+
  }
