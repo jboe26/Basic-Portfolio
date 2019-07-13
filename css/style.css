@@ -27,6 +27,9 @@ header {
 img {
    float: left;
 }
+h3 {
+   float: left;
+}
 
 p {
    float: right;
@@ -34,6 +37,6 @@ p {
 footer {
    background: #ccc;
    clear: both;
-   padding: 30px;
+   padding: 10px;
    text-align: center;
  }
