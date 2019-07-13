@@ -1,4 +1,4 @@
-nav { 
+     nav { 
         text-align: center; 
         background: #ebebeb;
           }
@@ -14,25 +14,7 @@ nav {
         background: teal;
         color: white;
         }
-     h1 h2 h3  { 
-        text-align: left;  
-       color: white;
-        }
-     p { 
-        color: #777;  
-        background: #ebebeb;  
-        }
-     aside { 
-        text-align: right; 
-        width: 495px; 
-        background: #ebebeb;
-        
-         }
-     section { 
-        width: 495px; 
-        float: left; 
-        background: #ebebeb;
-       }
-     footer { 
+    
+        footer { 
         text-align: center; 
         background: #ebebeb; }
