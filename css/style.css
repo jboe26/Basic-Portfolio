@@ -74,6 +74,7 @@ input[type="submit"] {
 }
 li {
    color: #4aaaa5;
+   margin: auto;
 }
 footer {
    background-color: #ebebeb;
@@ -89,8 +90,8 @@ footer p {
  .portfolio section .box {
    
    float: left;
-   width: 40%;
-   margin: 5%
+   width: 25%;
+   margin: 0%;
 
  }
 
