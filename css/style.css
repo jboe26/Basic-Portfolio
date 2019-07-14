@@ -11,6 +11,9 @@ body {
    margin: auto;
    font-size: 18px;
 }
+p {
+   color: #4aaaa5;
+}
 h2 {
    color: teal;
 }
@@ -69,6 +72,9 @@ input[type="submit"] {
    display: block;
    clear: both;
 }
+li {
+   color: #4aaaa5;
+}
 footer {
    background-color: #ebebeb;
    color: #666;
@@ -94,5 +100,5 @@ footer p {
  }
 
  .portfolio main {
-    background: #eee;
+    background: #fff;
  }
