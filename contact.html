@@ -8,35 +8,38 @@
 </head>
 
 <body>
-    <header>Josh Boepple
-        <br>
+    <header class="clearfix">
+        <div class="left-container">
+            Josh Boepple
+
+        </div>
         <!-- Nav bar -->
         <nav>
-            <a href="index.html">About</a>
-            <a href="contact.html">Contact Me</a>
+            <a href="index.html">About</a> |
+            <a href="contact.html">Contact Me</a> |
             <a href="portfolio.html">My Portfolio</a>
         </nav>
     </header>
-    <br>
 
-    <br>
-    <div class="clearfix">
-        <form>
-            Name:<br>
-            <input type="text" name="firstandlast">
-            <br>
-            Email:<br>
-            <input type="text" name="email">
-            <br>
-            Message:<br>
-            <textarea name="comment" form="usrform"></textarea>
-            <br>
-            
-            <input type="submit" value="Submit">
-        
-        </form>
+    <main>
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <label>Name</label><br>
+                <input type="text" name="firstandlast">
+                <br>
+                <label>E-mail</label><br>
+                <input type="text" name="email">
+                <br>
+                <label>Message</label><br>
+                <textarea name="comment" form="usrform"></textarea>
+                <br>
 
+                <input type="submit" value="Submit">
 
+            </form>
+        </div>
+    </main>
 
 
 
@@ -47,7 +50,7 @@
     </div>
     <!-- Footer -->
     <footer>
-        | Josh Boepple |
+      <p> | &copy; Josh Boepple | </p>
     </footer>
 </body>
 
