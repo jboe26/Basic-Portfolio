@@ -13,6 +13,7 @@ body {
 }
 p {
    color: #4aaaa5;
+   
 }
 h2 {
    color: teal;
@@ -43,10 +44,8 @@ header {
    align-content: center;
    margin: auto;
    width: 960px;
-   
- }
 
-
+}
 img {
    float: left;
 }
