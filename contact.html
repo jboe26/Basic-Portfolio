@@ -1,59 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Josh Boepple</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    
-    <header class="clearfix">
-        <div class="left-container">
-            <a class="name" href="index.html">Josh Boepple</a>
 
-        </div>
-        <!-- Nav bar -->
-        <nav>
-            <a href="index.html">About</a> |
-            <a href="contact.html">Contact Me</a> |
-            <a href="portfolio.html">My Portfolio</a>
-        </nav>
-    </header>
-
-    <main>
-        <div class="container">
-            <h2>Contact</h2>
-            <hr>
-            <form>
-                <label>Name</label><br>
-                <input type="text" name="firstandlast">
-                <br>
-                <label>E-mail</label><br>
-                <input type="text" name="email">
-                <br>
-                <label>Message</label><br>
-                <textarea name="comment" form="usrform"></textarea>
-                <br>
-
-                <input type="submit" value="Submit">
-
-            </form>
-        </div>
-    </main>
-
-
-
-
-
-
-
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Josh Boepple</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <!-- Footer -->
-    <footer>
-      <p> | &copy; Josh Boepple | </p>
-    </footer>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>
