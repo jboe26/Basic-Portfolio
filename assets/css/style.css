@@ -178,12 +178,9 @@ h3, h2 {
 
 /* contact page */
 
-#contact-form ul {
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
   margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
 }
 
 label,
