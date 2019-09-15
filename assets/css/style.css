@@ -1,9 +1,10 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/aurora.jpg");
+  /* background-color: lightblue; */
 }
 
 * {
@@ -12,12 +13,12 @@ body {
 
 /* general */
 
-.container {
+/* .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-}
+} */
 
 h1,
 h2,
@@ -33,9 +34,9 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  /* font-family: Georgia, Times, "Times New Roman", serif; */
   font-weight: 700;
-  color: #4aaaa5;
+  /* color: #4aaaa5; */
 }
 
 h1 {
@@ -59,35 +60,37 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  background-color: gray;;
+  /* border-bottom: 2px solid #cccccc; */
 }
 
 #logo {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  /* font-family: Georgia, Times, "Times New Roman", serif; */
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: lightblue;
 }
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 0px;
 }
+
+
 
 nav a {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: white;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -96,17 +99,24 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+#linkedin 
+#github
+#instagram {
+  height: 50px;
+  width: 50px;
+  font-size: 150px;
+}
 /* footer */
 
 footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
+  color: black;
+  color: black;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: gray;
+  /* border-top: 8px solid #4aaaa5; */
   height: 50px;
 }
 
@@ -121,7 +131,7 @@ h3, h2 {
 
 #main-container {
   padding-top: 130px;
-  min-height: calc(100vh - 70px);
+  /* min-height: calc(100vh - 70px); */
 }
 
 .main-section {
@@ -164,14 +174,14 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: lightblue;
   border-bottom: 0;
 }
 
 .auth-image {
   float: left;
-  width: 200px;
-  height: auto;
+  width: 350px;
+  height: 300px;
   margin-top: 10px;
   margin-right: 25px;
 }
@@ -209,6 +219,6 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: lightblue;
   border: 0 none;
 }
